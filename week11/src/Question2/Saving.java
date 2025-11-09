@@ -1,0 +1,19 @@
+package Question2;
+
+public class Saving implements Account
+{
+    public void withdraw()
+    {
+        System.out.println("Withdraw from Savings Account.");
+    }
+    
+    public void deposit()
+    {
+        System.out.println("Deposit in Savings Account.");
+    }
+    
+    public void takeLoan()
+    {
+        System.out.println("Taking loan for Savings Account!");
+    }
+}
